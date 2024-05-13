@@ -4,69 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <img src="DSC_1660-редакт.jpg" alt="photo" width="180">
-       <h1>Александра Усманова</h1>
-       <p>Живу в городе Магнитогорск. Домохозяйка.</p>
-       <p>Люблю читать <strong>книги.</strong> Есть своя домашняя <strong>библиотека.</strong> Есть питомец, <em>кошка по кличке</em> <strong>Юки</strong>.</p>
-   <p><strong>Социальная сеть:</strong></p>
-   <a href="https://vk.com/shizzzaya" target="_blank"> VK</a> |
-   <h3>Мои хобби</h3>
-   <ol>
-    <li>Чтение</li>
-    <li>Сериалы</li>
-    <li>Игры</li>
-    <li>Путешествия</li>
-    <li>Рисование</li>
-</ol>
-<h2>Опыт работы</h2>
-<table>
-    <thead>
-        <tr>
-      <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </tr>
+    <div class="container">
+        <div class="info">
+            <div class="info-image"> <img src="DSC_1660-редакт.jpg" alt="photo" class="avatar"></div>
+            <div class="info-text">
+                <h1>Александра Усманова</h1>
+               <p>Живу в городе Магнитогорск. Домохозяйка. Люблю читать <strong>книги.</strong> Есть своя домашняя <strong>библиотека.</strong></p>
+               <p> Есть питомец, <em>кошка по кличке</em> <strong>Юки</strong>.
+            Она очень ласковая кошечка и любит спать в ногах.</p>
+            <p>Хочу научиться писать красивые сайты и надеюсь, закончив курс, смогу это сделать.</p>
+            <p><strong>Социальная сеть:</strong></p>
+           <a href="#" target="_blank" > Вконтакте</a> |
+            </div>
+            <br>
+        </div>
+        
+      <div class="info-hobby">
+        <h2>Мои хобби</h2>
+       <ol class="list">
+        <li>Чтение</li>
+        <li>Сериалы</li>
+        <li>Игры</li>
+        <li>Путешествия</li>
+        <li>Рисование</li>
+    </ol>
+      </div > 
+      
+    <div class="work">
+        <h2>Опыт работы</h2>
+        <table class="table">
+        <thead class="thead">
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+           </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>Ресто групп</td>
+                    <td>Кассир</td>
+                    <td>2014-2017 </td>
+                    
+                </tr>
+                <tr>
+                    <td>Белая лилия</td>
+                    <td>Флорист</td>
+                    <td>2018-2019</td>
+                    
+                </tr>
+                <tr>
+                    <td>Про Айти</td>
+                     <td>Инженер по тестированию</td>
+                     <td>2021-2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+       <div class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="text">Ваше имя:</label>
+                <input type="text" id="text" placeholder="Введите имя">
+            </div>
             
-    </thead>
-        <tbody>
-            <tr>
-                <td>Ресто групп</td>
-                <td>Кассир</td>
-                <td>2014-2017 </td>
-                
-            </tr>
-            <tr>
-                <td>Белая лилия</td>
-                <td>Флорист</td>
-                <td>2018-2019</td>
-                
-            </tr>
-            <tr>
-                <td>Про Айти</td>
-                 <td>Инженер по тестированию</td>
-                 <td>2021-2024</td>
-            </tr>
-        </tbody>
-    </table>
-    <h2>Связаться со мной</h2>
-    <div>
-        <label for="text">Ваше имя:</label>
-        <input type="text" id="text" placeholder="Введите имя">
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+        </div>
+        
+        
+        <div class="form-group">
+            <label >Ваше сообщение:</label>
+    
+          <textarea name="" id="message" rows="6" cols="33" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить</button>
     </div>
+       </div>
+        
     <br>
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
     <br>
-    <div>
-        <label >Ваше сообщение:</label>
-        <br>
-        <br>
-      <textarea name="" id="message" rows="6" cols="31" placeholder="Введите сообщение..."></textarea>
-    </div>
-    <button type="submit">Отправить</button>
+    <br>
+    <br>
+    
 </body>
 </html>
