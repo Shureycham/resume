@@ -141,7 +141,7 @@ a:active {
 .form-group label {
   display: block;
   font-size: 14px;
-  color: 000080;
+  color: black;
 }
 .form-group input {
   width: 100%;
@@ -150,16 +150,7 @@ a:active {
   font-size: 14px;
   color: 000080;
 }
-@media (max-width:745px) {
-  .form-row {
-    display: block;
-  }
-  .form-row .form-group {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
+
 
 .form-row {
   display: flex;
@@ -187,4 +178,15 @@ margin-bottom: 10px;
 }
 .form h2 {
   text-align: center;
+}
+
+@media (max-width:745px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
