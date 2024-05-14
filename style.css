@@ -5,6 +5,9 @@
     display: block;
     text-align: center;
   }
+  .info-image {
+    margin: 0 auto;
+  }
 }
 body{
   color: #000080;
