@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (max-width:765px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
-  .info-image {
-    margin: 0 auto;
-  }
-}
+
 body{
   color: #000080;
   background: #FFFAF0;
@@ -192,5 +184,16 @@ margin-bottom: 10px;
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width:765px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info-image {
+    margin: 0 auto;
+    width: unset;
   }
 }
