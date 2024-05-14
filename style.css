@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @media (max-width:765px) {
   .info {
     display: block;
@@ -27,14 +28,14 @@ font-family: 'Noto Sans', sans-serif;
 .info-image {
 display: inline-block;
 box-sizing: border-box;
-width: 200px;
+width: 26%;
  }
  .info-text {
   margin-left: 10px;
   display: inline-block;
   box-sizing: border-box;
   margin-bottom: 10px;
-  width: 536px;
+  width: 72%;
  }
 
 .info-text p {
